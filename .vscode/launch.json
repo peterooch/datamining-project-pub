@@ -1,0 +1,29 @@
+{
+    "configurations": [
+
+        {
+            "name": "Python: CLI with Arguments",
+            "type": "python",
+            "request": "launch",
+            "program": "cli.py",
+            "console": "integratedTerminal",
+            "args": ["-train", "train.csv", "-struct", "Structure.txt", "-test", "test.csv", "-out", "C:\\output", "-bins", "5", "-gain", "0", "-leafs", "20", "-joblib", "enable"]
+            // python cli.py -train
+        },
+        {
+            "name": "Python: GUI",
+            "type": "python",
+            "request": "launch",
+            "program": "gui.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceRoot}"}
+        }
+    ]
+}

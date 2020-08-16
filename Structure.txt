@@ -1,0 +1,16 @@
+@ATTRIBUTE age NUMERIC
+@ATTRIBUTE job {unknown,admin.,unemployed,management,housemaid,entrepreneur,student,blue-collar,self-employed,retired,technician,services}
+@ATTRIBUTE marital {single,married,divorced,widowed}
+@ATTRIBUTE education {unknown,secondary,primary,tertiary}
+@ATTRIBUTE default {no,yes}
+@ATTRIBUTE balance NUMERIC
+@ATTRIBUTE housing {no,yes}
+@ATTRIBUTE loan {no,yes}
+@ATTRIBUTE contact {unknown,telephone,cellular}
+@ATTRIBUTE day NUMERIC
+@ATTRIBUTE month {jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec}
+@ATTRIBUTE duration NUMERIC
+@ATTRIBUTE campaign NUMERIC
+@ATTRIBUTE previous NUMERIC
+@ATTRIBUTE poutcome {unknown,other,failure,success}
+@ATTRIBUTE class {no,yes}
