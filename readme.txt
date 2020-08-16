@@ -65,4 +65,4 @@ for model in modelBuilder:
     <do stuff with model>
 
 If a model needed to be used after generation, each model has an inteface method that works like this:
-ModelObject.evaluate(<data row without classification>) => result: a classification determined upon how the model is built
+ModelObject.evaluate(<data row without classification>) => result: a classification determined upon how the model is built.
