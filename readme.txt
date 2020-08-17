@@ -49,7 +49,7 @@ So if you would want to use the program with the following parameters:
   Neighbor count for K-nearest neighbors algorithms - 5
   Cluster count for cluster algorithms - 10
 
-The relevant commandline to achieve all of the above would be
+The relevant commandline to achieve all of the above would be:
 python cli.py -train train.csv -test test.csv -struct Struct.txt -joblib enable -out C:/output -bins 5 -gain 0.2 -leafs 25 -neigbors 5 -clusters 10
 
 The program will automatically will generate the models, will test them against training data before discretization,
